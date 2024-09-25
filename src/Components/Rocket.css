@@ -1,0 +1,17 @@
+/* Rocket.css */
+.rocket {
+    position: absolute;
+    bottom: -50px; /* Start below the view */
+    font-size: 50px; /* Size of the rocket */
+    animation: launch 5s linear infinite;
+  }
+  
+  @keyframes launch {
+    0% {
+      bottom: -50px; /* Start below the viewport */
+    }
+    100% {
+      bottom: 100vh; /* End at the top of the viewport */
+    }
+  }
+  
